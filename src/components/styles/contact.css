@@ -1,0 +1,20 @@
+.contacts {
+    list-style-type:none;
+    margin: 50px;
+    width: 50vw;
+    margin: auto;
+    padding-left: 0px;
+    padding-top: 100px;
+    
+}
+
+li {
+    margin: 20px;
+
+}
+
+.contactButton {
+    width: 50px;
+    margin: 20px auto 20px auto;
+}
+

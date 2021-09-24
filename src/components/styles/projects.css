@@ -1,0 +1,42 @@
+
+
+.projectCard {
+   margin: 15px;
+    height: 400px;
+    border-radius: 10px;
+   
+}
+
+.cardBody{
+ margin:200px 10px 10px 10px;
+ background-color: rgb(255,255,255,.8); 
+ border-radius: 10px;
+ 
+}
+
+.projectTitle {
+    text-align: center;
+}
+
+#projectCard1 {
+    background-image: url("./images/sous-chef.png");
+    background-size: cover;
+    background-position: center; 
+}
+
+
+#projectCard2 {
+    background-image: url("./images/this-day-in-space.png");
+    background-size: cover;
+    background-position: center; 
+}
+#projectCard3 {
+    background-image: url("./images/Black\ and\ Yellow\ Record\ Label\ Logo.png");
+    background-size: cover;
+    background-position: center; 
+}
+#projectCard4 {
+    background-image: url("./images/daily-planner.png");
+    background-size: cover;
+    background-position: center; 
+}
