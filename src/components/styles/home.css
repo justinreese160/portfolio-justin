@@ -14,3 +14,15 @@
   font-size: 100px;
   margin-left: 500px;
 }
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
