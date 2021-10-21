@@ -29,13 +29,25 @@
   }
 
   @media screen and (max-width: 992px) {
-    .card {
+    .title {
       width: 50%;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .card {
+    .title {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .background {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .background {
       width: 100%;
     }
   }

@@ -9,12 +9,12 @@ export default function Projects() {
     <div className="background">
       <h1 className="title">Projects</h1>
       <Container>
-  <Row  md={2} >
+  <Row xs={1} sm={1} md={2} lg={2} >
     <Col> <Card className= "projectCard" id="projectCard1">
   <Card.Body className="cardBody">
     <Card.Title>Sous Chef</Card.Title>
     <Card.Text className="cardText">
-      Sous Chef is for all the home cooks out there. Search a database of recipes and save them to your Dashboard!
+      Sous Chef is for all the home cooks out there. Search a database of recipes!
     </Card.Text>
     <Button href="https://sous-chef-project-2.herokuapp.com/" variant="primary">Go to Site</Button>
   </Card.Body>
@@ -23,12 +23,12 @@ export default function Projects() {
   <Card.Body className="cardBody">
     <Card.Title>This Day in Space</Card.Title>
     <Card.Text className="cardText">
-     Want to know what's going on in Space today or any other Day? How close is the nearest Asteroid? Find out here.
+     Want to know what's going on in Space today or any other Day? 
     </Card.Text>
     <Button href="https://mleesers.github.io/This-Day-In-Space/" variant="primary">Go to Site</Button>
   </Card.Body>
 </Card></Col>
-  </Row> <Row md={2}>
+  </Row> <Row xs={1} sm={1} md={2} lg={2}>
   <Col> <Card className= "projectCard" id="projectCard3">
   <Card.Body className="cardBody">
     <Card.Title>Band Mate</Card.Title>

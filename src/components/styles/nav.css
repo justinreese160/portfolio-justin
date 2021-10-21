@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 992px) {
-    .card {
-      width: 50%;
+    .nav-items {
+      min-width: 100%;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .card {
-      width: 100%;
+    .nav-items {
+      min-width: 100%;
     }
   }

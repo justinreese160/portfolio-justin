@@ -18,14 +18,16 @@ li {
     margin: 20px auto 20px auto;
 }
 
-@media screen and (max-width: 992px) {
+ /* @media screen and (max-width: 992px) {
     .card {
       width: 50%;
     }
-  }
+  } */
 
   @media screen and (max-width: 768px) {
     .card {
-      width: 100%;
+      width: 90%;
+
     }
-  }
+  } 
+

@@ -15,14 +15,47 @@
   margin-left: 500px;
 }
 
-@media screen and (max-width: 992px) {
-  .card {
-    width: 50%;
+@media screen and (max-width: 1040px) {
+  .name {
+    min-width: 100%;
+    margin-left: 0px;
+  }
+  
+}
+
+@media screen and (max-width: 1040px) {
+  .career {
+    min-width: 100%;
+    margin-left: 0px;
+    
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    min-width: 100%;
+    font-size: 75px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
+  .career {
+    min-width: 100%;
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .name {
+    min-width: 100%;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .career {
+    min-width: 100%;
+    font-size: 40px;
   }
 }

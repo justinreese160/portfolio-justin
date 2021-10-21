@@ -16,20 +16,34 @@
 
 .aboutText{
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vh;
     margin-top: 10vh;
     font-family: 'font-family: 'Montserrat Alternates', sans-serif;';
+    background-color:rgba(255,255,255, .5);
 }
 
 @media screen and (max-width: 992px) {
     .card {
-      width: 50%;
+      /* width: 50%; */
     }
   }
 
   @media screen and (max-width: 768px) {
     .card {
       width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1040px) {
+    .background {
+      min-width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .background {
+      min-width: 100%;
     }
   }
   
