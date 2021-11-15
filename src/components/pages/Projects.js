@@ -33,7 +33,7 @@ export default function Projects() {
   <Card.Body className="cardBody">
     <Card.Title>Band Mate</Card.Title>
     <Card.Text className="cardText">
-      Coming Soon!
+      A message board that helps musicians connect!
     </Card.Text>
     <Button href="https://band--mates.herokuapp.com/" variant="primary">Go to Site</Button>
   </Card.Body>
